@@ -1,11 +1,11 @@
 # RAG Beginner
 
-This project is a collection of demos and experiments covering multiple **Retrieval-Augmented Generation (RAG)** techniques with LangChain. It lets users ask questions about documents in the `docs/` directory, retrieve relevant text chunks through vector search, and use an LLM to generate answers based on the retrieved context.
+>This project is a collection of demos and experiments covering multiple **Retrieval-Augmented Generation (RAG)** techniques with LangChain. It lets users ask questions about documents in the `docs/` directory, >retrieve relevant text chunks through vector search, and use an LLM to generate answers based on the retrieved context.
 
-The project has two main parts:
-
-- **Main pipeline**: ingests `.txt` documents, creates embeddings, stores them in Chroma, and provides a Streamlit chat interface.
-- **Additional experiments**: demonstrate chunking, retrieval, multi-query retrieval, RRF, hybrid search, reranking, and multimodal RAG through Python scripts and Jupyter notebooks.
+>The project has two main parts:
+>
+>- **Main pipeline**: ingests `.txt` documents, creates embeddings, stores them in Chroma, and provides a Streamlit chat interface.
+>- **Additional experiments**: demonstrate chunking, retrieval, multi-query retrieval, RRF, hybrid search, reranking, and multimodal RAG through Python scripts and Jupyter notebooks.
 
 ## Main Features
 
